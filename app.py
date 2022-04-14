@@ -139,7 +139,7 @@ class logs(Resource):
             logs = db.engine.execute(query)    
 
             
-            return make_response(jsonify({"hasi":[dict(row) for row in logs]}), 200)
+            return make_response(jsonify({"hasil":[dict(row) for row in logs]}), 200)
         return jsonify({"success" : False,"msg":"Data tidak dilengkap"})
 
 api.add_resource(create, "/api/v1/users/create", methods=["POST"])
