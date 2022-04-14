@@ -1,8 +1,8 @@
 #Anggota Kelompok
-#Efendi Kisnoto            19090057
-#Irvan Akbar Febriansyah    19090099
-#Doni Cahya Adi Saputra    19090114
-#Arifullah                  19090010
+#Efendi Kisnoto             19090057     Kelas 6A
+#Irvan Akbar Febriansyah    19090099     Kelas 6A
+#Doni Cahya Adi Saputra     19090114     Kelas 6A
+#Arifullah                  19090010     Kelas 6A
 
 
 from flask import Flask, request, make_response, jsonify
